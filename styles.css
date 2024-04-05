@@ -1,5 +1,5 @@
 body {
-    background-color: #d6f3e7; /* Set background color */
+    background-color: #fffff !important; /* Set background color */
     color: #045c64; /* Set text color */
 }
 
@@ -34,3 +34,4 @@ input[type="number"] {
     border-radius: 5px; /* Optional: Add rounded corners to the prediction result */
     font-weight: bold; /* Make the text bold */
     font-size: 24px !important; /* Adjust the font size */
+}
