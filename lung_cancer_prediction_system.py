@@ -44,11 +44,28 @@ def main():
     
     #input data from user
     age = int(st.number_input("Age", step=1))
-    selected_gender = st.selectbox("Select gender:", ["Male", "Female"])
+    # Custom CSS for styling the selectbox
+    st.markdown(
+        """
+        <style>
+        /* Style for selectbox */
+        .st-cg {
+            border: 2px solid #045c64; /* Add border around selectbox */
+            border-radius: 8px; /* Add border radius */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Dropdown for selecting gender
+    selected_gender = st.selectbox("Select gender:", ["Select gender", "Male", "Female"])
+    
     # Convert selected gender to integer
     if selected_gender == "Male":
         gender = 1
-    else:
+    elif selected_gender == "Female":
         gender = 2
     air_pollution = int(st.number_input("Air Pollution", step=1))
     alcohol_consumption = int(st.number_input("Alcohol Consumption", step=1))
