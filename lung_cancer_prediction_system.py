@@ -61,18 +61,13 @@ def main():
     )
     
     # Dropdown for selecting gender
-    selected_gender = st.selectbox("Select gender:", ["Select gender", "Male", "Female"], index=0)
+    selected_gender = st.selectbox("Select gender:", ["Select gender", "Male", "Female"], index=1)
     
     # Convert selected gender to integer
     if selected_gender == "Male":
         gender = 1
     elif selected_gender == "Female":
         gender = 2
-    else:
-        gender = None
-    
-    # Display the selected gender value
-    st.write("Gender code:", gender)
     air_pollution = int(st.number_input("Air Pollution", step=1))
     alcohol_consumption = int(st.number_input("Alcohol Consumption", step=1))
     dust_allergy = int(st.number_input("Dust Allergy", step=1))
