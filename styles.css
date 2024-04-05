@@ -1,0 +1,36 @@
+body {
+    background-color: #d6f3e7; /* Set background color */
+    color: #045c64; /* Set text color */
+}
+
+.css-1gk2cu4 {
+    background-color: #045c64 !important; /* Set primary color */
+    color: "#e7f1f1" !important; /* Set secondary background color */
+}
+
+body, p, h2, h3, h4, h5, h6 {
+    font-weight: bold !important; /* Set text to bold */
+    font-size: 20px !important; /* Set font size to 20 pixels */
+}
+
+h1 {
+    font-size: 36px !important; /* Set font size of title to 36 pixels */
+    text-align: center !important; /* Center-align title */
+}
+
+input[type="number"] {
+    font-weight: bold !important; /* Set input text to bold */
+    padding: 10px !important; /* Set padding for input boxes */
+    border: 2px solid #045c64 !important; /* Add border around input boxes */
+    border-radius: 8px; /* Add border radius to input boxes */
+    font-size: 18px !important; /* Adjust the font size */
+}
+
+/* Custom style for the final prediction message */
+.custom-success {
+    color: #E7F1F1; /* Change the text color to green */
+    background-color: #045c64; /* Change the background color to your desired color */
+    padding: 0px 10px; /* Optional: Add padding to the prediction result */
+    border-radius: 5px; /* Optional: Add rounded corners to the prediction result */
+    font-weight: bold; /* Make the text bold */
+    font-size: 24px !important; /* Adjust the font size */
