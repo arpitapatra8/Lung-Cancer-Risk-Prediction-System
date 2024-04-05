@@ -1,11 +1,11 @@
 body {
-    background-color: #fffff !important; /* Set background color */
+    background-color: #ffffff !important; /* Set background color to white */
     color: #045c64; /* Set text color */
 }
 
 .css-1gk2cu4 {
     background-color: #045c64 !important; /* Set primary color */
-    color: "#e7f1f1" !important; /* Set secondary background color */
+    color: #e7f1f1 !important; /* Set secondary background color */
 }
 
 body, p, h2, h3, h4, h5, h6 {
@@ -28,7 +28,7 @@ input[type="number"] {
 
 /* Custom style for the final prediction message */
 .custom-success {
-    color: #E7F1F1; /* Change the text color to green */
+    color: #e7f1f1; /* Change the text color to green */
     background-color: #045c64; /* Change the background color to your desired color */
     padding: 0px 10px; /* Optional: Add padding to the prediction result */
     border-radius: 5px; /* Optional: Add rounded corners to the prediction result */
