@@ -61,7 +61,7 @@ def main():
     )
     
     # Dropdown for selecting gender
-    selected_gender = st.selectbox("Select gender:", ["Select gender", "Male", "Female"], index=1)
+    selected_gender = st.selectbox("Gender:", ["Male", "Female"])
     
     # Convert selected gender to integer
     if selected_gender == "Male":
