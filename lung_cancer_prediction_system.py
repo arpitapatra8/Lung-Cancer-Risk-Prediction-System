@@ -31,15 +31,6 @@ def prediction(user_input):
     
 def main():
     
-    # Add CSS styles directly using Streamlit's functions
-    def local_css(file_name):
-        with open(file_name) as f:
-            st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-    
-    # Call the local_css function and pass the file name containing CSS styles
-    local_css('styles.css')  # Replace 'styles.css' with the file name containing your CSS styles
-
-    
     #title
     st.title('Lung Cancer Risk Prediction System')
     
