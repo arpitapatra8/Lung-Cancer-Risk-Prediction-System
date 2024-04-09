@@ -44,7 +44,7 @@ def main():
     
     #input data from user
     age = int(st.number_input("Age", step=1))
-    gender = int(st.number_input("Gender ['M' : 1 | 'F' : 2]", step=1))    
+    gender = int(st.number_input("Gender ['M' : 1]/['F' : 2]", step=1))    
     air_pollution = int(st.number_input("Air Pollution", step=1))
     alcohol_consumption = int(st.number_input("Alcohol Consumption", step=1))
     dust_allergy = int(st.number_input("Dust Allergy", step=1))
