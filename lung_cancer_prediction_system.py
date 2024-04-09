@@ -76,9 +76,9 @@ def main():
         risk_class = level.replace(' ', '').lower()  # Convert risk level to lowercase and remove spaces
         
         # Define the CSS style based on the risk class
-        if risk_class == 'low':
+        if risk_class == 'LOW RISK':
             style = 'background-color: #00cc00; color: #ffffff;'  # Green background for low risk
-        elif risk_class == 'medium':
+        elif risk_class == 'MEDIUM RISK':
             style = 'background-color: #ffff00; color: #000000;'  # Yellow background for medium risk
         else:
             style = 'background-color: #ff0000; color: #ffffff;'  # Red background for high risk
