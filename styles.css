@@ -20,7 +20,7 @@ h1 {
 
 input[type="number"] {
     font-weight: bold !important; /* Set input text to bold */
-    padding: 10px !important; /* Set padding for input boxes */
+    padding: 10px 10px !important; /* Set padding for input boxes */
     border: 2px solid #045c64 !important; /* Add border around input boxes */
     border-radius: 8px; /* Add border radius to input boxes */
     font-size: 18px !important; /* Adjust the font size */
