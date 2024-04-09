@@ -27,11 +27,17 @@ input[type="number"] {
 }
 
 /* Custom style for the final prediction message */
-.custom-success {
-    color: #e7f1f1; /* Change the text color to green */
-    background-color: #045c64; /* Change the background color to your desired color */
-    padding: 0px 10px; /* Optional: Add padding to the prediction result */
-    border-radius: 5px; /* Optional: Add rounded corners to the prediction result */
-    font-weight: bold; /* Make the text bold */
-    font-size: 32px !important; /* Adjust the font size */
+.custom-success.low {
+    color: #ffffff; /* Change the text color to white */
+    background-color: #00cc00; /* Change the background color to green */
+}
+
+.custom-success.medium {
+    color: #000000; /* Change the text color to black */
+    background-color: #ffff00; /* Change the background color to yellow */
+}
+
+.custom-success.high {
+    color: #ffffff; /* Change the text color to white */
+    background-color: #ff0000; /* Change the background color to red */
 }
