@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open('prediction_model.sav', 'rb'))
+loaded_model = pickle.load(open('prediction_model1.sav', 'rb'))
 
 #creating function for prediction
 def prediction(user_input):
