@@ -69,13 +69,13 @@ def main():
     
     # Code for prediction
     level = ''
-
+    
     # Result
     if st.button('Prediction Result'):
         level = prediction([age, gender, air_pollution, alcohol_consumption, dust_allergy, occupational_hazard, genetic_risk, chronic_lung_disease, balanced_diet, obesity, smoking, passive_smoking, chest_pain, coughing_of_blood, fatigue, weight_loss, shortness_of_breath, wheezing, difficulty_swallowing, frequent_cold, dry_cough, snoring])
+        risk_class = level.replace(' ', '').lower()  # Convert risk level to lowercase and remove spaces
+        st.markdown(f'<p class="custom-success {risk_class}">{level}</p>', unsafe_allow_html=True)
 
-    # Display the success message with HTML formatting and the custom class
-    st.markdown(f'<p class="custom-success">{level}</p>', unsafe_allow_html=True)
     
     
 if __name__ == '__main__':
