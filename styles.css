@@ -14,7 +14,7 @@ body, p, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 36px !important; /* Set font size of title to 36 pixels */
+    font-size: 40px !important; /* Set font size of title to 36 pixels */
     text-align: center !important; /* Center-align title */
 }
 
