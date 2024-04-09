@@ -40,7 +40,7 @@ def main():
     local_css('styles.css')  # Replace 'styles.css' with the file name containing your CSS styles
     
     #title
-    st.title('Lung Cancer Risk Prediction System')
+    st.title('LUNG CANCER RISK PREDICTION SYSTEM')
     
     #input data from user
     age = int(st.number_input("Age", step=1))
