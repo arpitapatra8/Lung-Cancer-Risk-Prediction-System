@@ -16,7 +16,6 @@ body, p, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 38px !important; /* Set font size of title to 40 pixels */
     text-align: center !important; /* Center-align title */
-    display: inline !important;
 }
 
 input[type="number"] {
