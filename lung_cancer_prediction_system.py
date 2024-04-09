@@ -69,22 +69,13 @@ def main():
     
     # Code for prediction
     level = ''
-    
+
     # Result
     if st.button('Prediction Result'):
         level = prediction([age, gender, air_pollution, alcohol_consumption, dust_allergy, occupational_hazard, genetic_risk, chronic_lung_disease, balanced_diet, obesity, smoking, passive_smoking, chest_pain, coughing_of_blood, fatigue, weight_loss, shortness_of_breath, wheezing, difficulty_swallowing, frequent_cold, dry_cough, snoring])
-        risk_class = level.replace(' ', '').lower()  # Convert risk level to lowercase and remove spaces
-        
-        # Define the CSS style based on the risk class
-        if risk_class == 'LOW RISK':
-            style = 'background-color: #00cc00; color: #ffffff;'  # Green background for low risk
-        elif risk_class == 'MEDIUM RISK':
-            style = 'background-color: #ffff00; color: #000000;'  # Yellow background for medium risk
-        else:
-            style = 'background-color: #ff0000; color: #ffffff;'  # Red background for high risk
-        
-        # Apply the CSS style to the prediction result
-        st.markdown(f'<p style="{style}" class="custom-success">{level}</p>', unsafe_allow_html=True)
+
+    # Display the success message with HTML formatting and the custom class
+    st.markdown(f'<p class="custom-success">{level}</p>', unsafe_allow_html=True)
 
 
     
