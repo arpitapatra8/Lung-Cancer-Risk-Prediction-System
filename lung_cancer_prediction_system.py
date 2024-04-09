@@ -40,7 +40,7 @@ def main():
     local_css('styles.css')  # Replace 'styles.css' with the file name containing your CSS styles
     
     #title
-    st.title('LUNG CANCER RISK PREDICTION SYSTEM')
+    st.markdown('<h1 style="display: inline-block;">LUNG CANCER RISK PREDICTION SYSTEM</h1>', unsafe_allow_html=True)
     
     #input data from user
     age = int(st.number_input("Age", step=1))
